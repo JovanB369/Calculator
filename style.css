@@ -11,7 +11,8 @@ body{
     position: relative;
     left : 37%;
     top : 2rem;
-    background-color: lightgray;
+    background-color: gray;
+    border-radius: 2rem;
 }
 .row{
     display : flex;
@@ -20,7 +21,7 @@ body{
     top: 5rem;
 }
 
-.button{
+.button,.equal{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +33,8 @@ body{
     top: 2rem;
     font-size: x-large;
     background-color: whitesmoke;
-    
+    border-radius: 2rem;
+    cursor: pointer;
 }
 
 .clear{
@@ -45,7 +47,8 @@ body{
     top: 3rem;
     border: 1px solid black;
     font-size: xx-large;
-    background-color: aqua;
+    background-color: #ffd886;
+    cursor: pointer;
 }
 
 .calc-input{
@@ -57,4 +60,10 @@ body{
     height: 100px;
     border: 1px solid black;  
     background-color: whitesmoke;
+    padding-right: 1.2rem;
+    border-radius: 2rem;
+}
+
+.red{
+    background-color: tomato;
 }
